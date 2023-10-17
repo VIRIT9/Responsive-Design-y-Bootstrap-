@@ -1,0 +1,76 @@
+/* Cambio de color del fondo de la pagina */ 
+body{
+    background-color: rgb(245, 242, 240);
+}
+/* ........................ */ 
+
+/*Estilo de la barra de navegación: fondo, color de letras, bordes...  */ 
+.container-fluid {   
+    background-color: #d091fa;
+ }
+
+.d-lg-none{
+    background-color:  #d091fa;
+    border:none;
+    color: black;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff; /* Cambia el color del texto al pasar el ratón por encima */
+}
+/* ........................ */ 
+
+
+/* Alineacion al centro el carrusel, parrafos y titulo */
+#carouselExampleSlidesOnly, .cols-3, h1{
+    text-align: center;
+}
+/* ........................ */ 
+
+/* Estilo de parrafos */ 
+.cols-3{ 
+    float: right;
+    line-height: 2;
+    margin-top: -200px;
+    margin-right: 60px;
+    padding: 0;
+} 
+/* ........................ */ 
+
+
+/* Estilo lista de opciones */ 
+.lista ul li {
+    border: 1px solid #cf88f0; /* Agrega un borde a los elementos de la segunda lista*/
+    padding: 10px; /* Espaciado interno para separar el contenido del borde */
+}
+
+.d-none {
+   float: left;
+    width: 130px;
+    margin-left: -150px;
+}
+/* ........................ */ 
+
+/* Cambio de estilo del boton search*/ 
+form.d-flex button.btn { 
+    background-color: aliceblue;
+    color: black;
+    border-color: rgb(216, 173, 245); 
+}
+
+form.d-flex button.btn:active { /* Cambia todo cuando se hace click!*/ 
+    background-color: pink; /* Cambia el color sel button search al hacer click */
+    border-color: white; /* Cambia el borde*/
+    color: white; /* Cambia el color de las letras*/
+}
+
+/* ........................ */ 
+
+
+
+
+
+
+
+
+
